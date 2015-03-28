@@ -1,11 +1,12 @@
 ## Hello Worldを書いてみる
 1. 好きな場所に`hello.rb`を作成する。（ファイル名は何でも良い。Javaのようにクラス名と対応させる必要はない）
 2. 以下のように書いて保存。
+3. 
    ```ruby:hello.rb
    puts("Hello World!");
    ```
    （putsメソッドはJavaでいうsysoutのようなもの）
-3. コマンドプロンプトから実行
+4. コマンドプロンプトから実行
    ```dos
    > ruby hello.rb
    Hello World!
@@ -24,7 +25,7 @@ Hello Worldを書くとき、正確に書くと`puts("Hello World!");`が正し�
 * 引数のかっこが省略可能
 
 よって以下のような方法が「Rubyっぽい書き方」になる。
-```ruby
+```ruby:hello.rb
 puts "Hello World!"
 ```
 
