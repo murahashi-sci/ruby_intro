@@ -1,8 +1,8 @@
 ## Rubyのインストール
 今回はWindows用の[RubyInstaller](http://rubyinstaller.org/)を使用。
 
-~本格的な開発をするときはMacかLinuxを用意した方が良いです。~  
-~Windowsでは動作しないプラグインが結構あります。~
+~本格的な開発をするときはMacかLinuxを用意した方が良い。~  
+~Windowsでは動作しないプラグインが少なくないので…。~
 
 1. http://rubyinstaller.org/ へ
 2. ダウンロードページへ
