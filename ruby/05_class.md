@@ -62,7 +62,7 @@ Rubyでは、メソッド使用時に括弧を省略できる。
 
 ```ruby
 calculator = Calculator.new(100) # コンストラクタで@input_numberに値をセット
-calculator.input_number = 200 # setterで値を再代入
+calculator.input_number = 200 # setterで値を再代入。calculator.input_number=(200)の省略形
 puts calculator.input_number #=> 200 getterで@input_numberを取得
 ```
 
