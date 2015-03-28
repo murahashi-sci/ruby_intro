@@ -35,11 +35,6 @@ class User
     return users
   end
   
-  # 名前・苗字を結合して取得
-  def full_name
-    @first_name + " " + @family_name
-  end
-  
   private # と書くと、これより下はプライベートなメソッドになる
   
   # コンストラクタ
