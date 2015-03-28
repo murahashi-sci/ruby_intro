@@ -27,7 +27,7 @@ class User
   # [戻り値] User配列
   def self.random_build(number, gender = :all)
     puts "#{GENDER[gender]}の名前を#{number}個生成します。"
-    users = [] # 空の配列
+    users = [] # 空の配列。Array.newと等価
     number.times do |n|
 	  # 配列に生成した人間を追加していく
       users << self.new(gender)
