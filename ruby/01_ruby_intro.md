@@ -11,7 +11,7 @@ Webアプリ作成に限定した言語ではないが、「Rubyを使う」＝�
 Ruby on Rails（通称Rails）とはRubyのWebアプリケーション用フレームワーク。  
 Railsの紹介は次回に。
 
-日本製の言語なので、リファレンスも日本語（http://docs.ruby-lang.org/ja/2.2.0/doc/index.html）。
+日本製の言語なので、リファレンスも日本語（ http://docs.ruby-lang.org/ja/2.2.0/doc/index.html ）。
 
 [地域ごとのコミュニティ](https://github.com/ruby-no-kai/official/wiki/RegionalRubyistMeetUp)が多いのが特徴。（[Doorkeeperを見るとかなり多い](https://www.doorkeeper.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/ruby)）
 
