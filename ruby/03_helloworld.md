@@ -6,7 +6,7 @@
    ```ruby:hello.rb
    puts("Hello World!");
    ```
-   （putsメソッドはJavaでいうsysoutのようなもの）
+   （putsはJavaでいうsysoutのようなもの）
 4. コマンドプロンプトから実行
 
    ```dos
