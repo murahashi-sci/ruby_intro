@@ -16,15 +16,15 @@ class User
   # 定数（ハッシュ）
   GENDER = {male: "男性", female: "女性", all: "指定なし"}
   
-  # アクセサは一行で書ける
+  # getterは一行で書ける
   attr_reader :first_name, :family_name
   
   # 人名のオブジェクトを作成する
   # （メソッド名に self. を付けるとstaticなメソッドになる）
-  #
+  # [引数]
   # number: 生成する人数
   # gender: 生成する性別（:all, :male, :female）
-  # 戻り値: User配列
+  # [戻り値] User配列
   def self.random_build(number, gender = :all)
     puts "#{GENDER[gender]}の名前を#{number}個生成します。"
     users = [] # 空の配列
