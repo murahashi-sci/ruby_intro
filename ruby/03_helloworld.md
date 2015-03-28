@@ -2,11 +2,13 @@
 1. 好きな場所に`hello.rb`を作成する。（ファイル名は何でも良い。Javaのようにクラス名と対応させる必要はない）
 2. 以下のように書いて保存。
 3. 
+
    ```ruby:hello.rb
    puts("Hello World!");
    ```
    （putsメソッドはJavaでいうsysoutのようなもの）
 4. コマンドプロンプトから実行
+
    ```dos
    > ruby hello.rb
    Hello World!
