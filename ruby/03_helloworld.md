@@ -32,4 +32,4 @@ puts "Hello World!"
 ```
 
 ----
-[クラスとメソッドを作ってみる](04_class_method.md)
+[メソッドを作ってみる](04_method.md)
