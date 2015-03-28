@@ -3,7 +3,7 @@
 2. 以下のように書いて保存。
 3. 
 
-   ```ruby:hello.rb
+   ```ruby
    puts("Hello World!");
    ```
    （putsはJavaでいうsysoutのようなもの）
@@ -27,7 +27,7 @@ Hello Worldを書くとき、正確に書くと`puts("Hello World!");`が正し�
 * 引数のかっこが省略可能
 
 よって以下のような方法が「Rubyっぽい書き方」になる。
-```ruby:hello.rb
+```ruby
 puts "Hello World!"
 ```
 
