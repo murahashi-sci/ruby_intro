@@ -7,7 +7,7 @@
    puts("Hello World!");
    ```
    （putsはJavaでいうsysoutのようなもの）
-4. コマンドプロンプトから実行
+3. コマンドプロンプトから実行
 
    ```dos
    > ruby hello.rb
