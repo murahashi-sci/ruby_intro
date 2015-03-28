@@ -97,6 +97,31 @@ attr_accessor "input_number"
 ```
 としても同様に動作する。
 
+ここまでを纏めて修正したものが以下になる。
+```ruby
+class Calculator
+  attr_accessor :input_number
+  # コンストラクタ
+  def initialize(number)
+    raise ArgumentError unless number.integer?
+    @input_number = number
+  end
+
+  def calc_double
+    @input_number * 2
+  end
+end
+
+calculator = Calculator.new(100)
+# コンストラクタの引数でセットした値 => 100
+puts calculator.calc_double
+# setterで再代入
+calculator.calc_double = 200
+# getterで確認 => 200
+puts calculator.calc_double
+```
+
+
 ----
 
 [コレクションとループについて](06_collection_loop.md)

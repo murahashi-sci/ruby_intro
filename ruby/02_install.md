@@ -19,4 +19,4 @@ ruby 2.2.1p85 (2015-02-26 revision 49769) [x64-mingw32]
 
 ----
 
-[さて、Hello Worldを書いてみます](03_helloworld.md)
+[Hello Worldを書いてみる](03_helloworld.md)
