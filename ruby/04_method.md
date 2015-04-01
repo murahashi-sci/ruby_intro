@@ -34,7 +34,7 @@ end
 #### returnの省略
 Rubyではreturnすら省略することができる。
 
-また省略したからといって、戻り値がvoidになるわけではない。
+また省略したからといって、戻り値が無くなるなるわけではない。
 ```ruby
 def calc_double(number)
   number * 2
