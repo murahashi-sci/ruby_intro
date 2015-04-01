@@ -57,6 +57,6 @@ foo = Object.new # よく分からないオブジェクトも入る。
 
 ----
 
-[まずは導入へ。](02_install.md)
+[まずは導入](02_install.md)
 
 
