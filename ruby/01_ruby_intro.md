@@ -27,7 +27,7 @@ Ruby界の有名人：
 
 ### Ruby(on Rails)が使用されているところ
 * Twitter(現在はJava)
-* Github(現在はC#？)
+* Github
 * 楽天
 * 食べログ
 * クックパッド
