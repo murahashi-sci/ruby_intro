@@ -110,6 +110,7 @@ Railsでよくある使い方
   <tr><td>
     <%= user.name %>
   </td></tr>
+  <% end %>
 </table>
 ```
 
