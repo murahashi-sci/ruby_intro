@@ -145,10 +145,12 @@ hash = {num: 100, str: "Hello", obj: Object.new}
 
 **Railsでよくある使い方**
 
-Web画面にて、送信フォームから値をPOST送信したとき、以下のようなハッシュが生成される。
+例えばWeb画面にて、送信フォームから値をPOST送信したとき、以下のようなハッシュが生成される。
 ```ruby
 {"utf8"=>"✓", "authenticity_token"=>"・・・", "address"=>"Tokyo", "user_name"=>"Taro Yamada", "controller"=>"sample", "action"=>"index"}
 ```
+中身を取り出す
+```ruby
 puts params["address"] #=> Tokyo
-
+```
 簡単。
