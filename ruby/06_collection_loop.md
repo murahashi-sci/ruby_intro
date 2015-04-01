@@ -142,3 +142,12 @@ puts hash["key2"] #=> value2
 hash = {num: 100, str: "Hello", obj: Object.new}
 ```
 便利。
+
+**Railsでよくある使い方**
+Web画面にて、送信フォームから値をPOST送信したとき、以下のようなハッシュが生成される。
+```ruby
+{"utf8"=>"✓", "authenticity_token"=>"・・・", "address"=>"Tokyo", "user_name"=>"Taro Yamada", "controller"=>"sample", "action"=>"index"}
+```
+puts params["address"] #=> Tokyo
+
+簡単。
